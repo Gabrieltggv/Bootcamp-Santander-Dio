@@ -1,0 +1,14 @@
+Formas de desenvolvimento de aplicativos para smartphones, existem duas formas que dependeram do entendimento na analise
+de muitos fatores.
+
+Híbrida e Nativa:
+
+Hibrída - Se baseia quando existe varias liguagens a nativa do sistema operacional e um app web. E geralmente possui uma liguagem e um framework envolvido, além de proporcionar 
+um desenvolvimento mas rápido, mas de contrapartida perde em perfomace na questão de usabilidade do app, pois perde em oferecer melhores recursos de hardware.
+Ex: Fluter(Language: Dart), Twitter, Facebook.
+
+Nativa - Esta forma de desenvolvimento esta realazionado a um app específico para o SO, pois normalmente é desenvolvido na mesma linguagem nativa da plataforma.
+E fica amazenado diretamente no equipamento, permitindo um funcionamento offline e maior perfomace do app, por ser desenvolvido em uma linguagem proxima a nativa 
+permite maior compatibilidade com as funções internas do equipamento. Esta alternativa se torna um custo mais alto para o desenvolvimento. Mais permite que tenha 
+um público de usuários mais exigentes.
+Ex: Whatssap, Google Maps.
