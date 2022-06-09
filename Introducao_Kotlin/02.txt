@@ -1,0 +1,81 @@
+fun main() {
+    val name = "Olá mundo!"
+    println(name)
+    
+    // tipos de dados
+    // Int, Long, Float, Double, Array, Boolean, Char, Byte, Short, Null
+	// Para que possamos verificar o maximo de valores em cada tipo
+	/*
+	println(Int.MAX_VALUE)
+    println(Int.MIN_VALUE)
+    println(Long.MAX_VALUE)
+    println(Long.MIN_VALUE)
+    println(Byte.MAX_VALUE)
+    println(Byte.MIN_VALUE)
+    println(Short.MAX_VALUE)
+    println(Short.MIN_VALUE)
+    */
+    // Declarações de Variáveis 
+    // tipo var ele é mutavél e camelCase
+    // tipo val ele é imutável e camelCase
+	// tipo const val é imutavel, valor atribuído durante copilação. SNAKE_CASE.
+	// pode-se declarar o tipo da variável para var e val. Ex: var idade:Int
+	// Qualquer tipo pode ser null, mas necessita que explecitamos a "?".
+		/*
+		var name:Int? = null
+		name = 10    	
+		println(name)
+    	*/
+    // Operações matemáticas além de propocionar por atribuição e expresões, pode-se usar metodos:
+	/*
+	 * var a:Int = 10
+	 * var b:Int = 8
+	 * println(a.plus(b))
+	 * println(a.minus(b))
+	 * println(a.div(b))
+	 * println(a.times(b))
+	 * println(a.mod(b))
+	 */
+	// Operações de comparação de maior, menor ou igual existe o comando compareTo, onde 
+	// o mesmo não retorna um booleao e sim um valor numero onde pode-se dai fazer uma validação.
+	
+	var e:Int = 23
+	var g:Int = 42
+	val result = e.compareTo(g)
+	// Se menor retorna -1
+	// Se maior retorna 1
+	// Se iguall retorna 0
+	if(result<0) println("é menor") 
+    // Metodos Empty e Blank
+    /*
+     * var d = ""
+     * var f = "   "
+     * println(d.isEmpty())
+     * println(d.isBlank())
+     * println(d.isNullOrBlank() || d.isNullOrEmpty())
+     * println(f.isEmpty())
+     * println(f.isBlank())
+    */
+	val nome: String = "Gabriel"
+    val sobrenome: String = "Torres"
+    println("Meu nome é $nome ${sobrenome}!")
+	
+	// Função range no kotlin é realizado com ".."
+	println( 4 in 2..8)
+	
+    // Formatação de strings
+    /*
+    println(nome.capitalize())
+    println(nome.toUpperCase())
+    println(nome.decapitalize())
+    println(nome.toLowerCase())
+    */
+    
+    var exemplo:String = " Quero aprender kotlin "
+    
+    println(exemplo.trim())
+    println(exemplo.trimStart())
+    println(exemplo.trimEnd())
+    println(exemplo.replace("o", "2"))
+    
+}
