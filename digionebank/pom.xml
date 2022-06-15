@@ -56,7 +56,7 @@
                   <archive>
                     <manifest>
                       <addClasspath>true</addClasspath>
-                      <mainClass>one.digitalinnovation.bank.PessoaKt</mainClass>
+                      <mainClass>one.digitalinnovation.bank.MainKt</mainClass>
                     </manifest>
                   </archive>
                   <descriptorRefs>
