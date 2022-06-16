@@ -49,4 +49,6 @@ fun main() {
         println(salarios[index])
     }
 
+    doubleOperacoes()
+
 }
